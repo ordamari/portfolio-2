@@ -1,0 +1,9 @@
+*:has(.animated-letter) {
+    overflow: hidden;
+}
+
+
+.animated-letter {
+    transform: translateY(100%);
+    display: inline-block;
+}

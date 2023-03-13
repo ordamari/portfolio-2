@@ -1,0 +1,37 @@
+.welcome {
+    position: absolute;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-black);
+
+}
+
+.arrow-svg-wrapper {
+    position: absolute;
+    top: 90%;
+    color: var(--text-black);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    animation: bounce 0.5s ease-in infinite alternate;
+    opacity: 0;
+
+}
+
+@keyframes bounce {
+    0% {
+        translate: 0;
+    }
+
+    100% {
+        translate: 0 8px;
+
+    }
+}
